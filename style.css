@@ -1,0 +1,74 @@
+body {
+  background-color: #005874;
+}
+
+h1 {
+  color: #e6e6d4;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.upperh2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #e6e6d4;
+  position: fixed;
+  top: 30px;
+  left: 150px;
+}
+
+.lowerh2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #e6e6d4;
+  position: absolute;
+  top: 145px;
+  left: 1130px;
+  text-align: right;
+}
+
+h3 {
+  color: #e6e6d4;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+p {
+  color: #e6e6d4;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+img {
+  max-width: 20rem;
+  max-height: 20rem;
+}
+
+* {
+  color: #e6e6d4;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+.warning {
+  background-color: #ff9800;
+} /* Orange */
+
+.warning:hover {
+  background: #e68a00;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
