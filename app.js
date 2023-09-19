@@ -4,7 +4,7 @@ let answerOne = prompt(
 
 massage = "";
 if (answerOne == "yes") {
-  message = "You know me so well - 1 point";
+  message = "You know me so well - 1 point ONE";
   image = "<img src=images/reading.jpeg>";
 } else if (answerOne == "no") {
   message = "Party boy I'm not - try again";
@@ -50,7 +50,7 @@ let answerFour = prompt(
 );
 
 messageFour = "";
-if (answerFour == "yes") {
+if (answerFour.toLowerCase == "yes") {
   messageFour = "Yes, give me a good period drama any day!";
 } else if (answerFour == "no") {
   messageFour =
@@ -75,10 +75,10 @@ if (answerFour == "yes") {
   messageFive = "I'm not sure that was an answer - try again";
   image = "";
 }
-
-document.write(message + image);
-document.write(messageTwo);
-document.write(messageThree);
-document.write(messageFour);
-document.write(messageFive);
+document.write("<br>" + "<br>");
+document.write("<br>" + message + image + "<br>");
+document.write("<br>" + messageTwo + "<br>");
+document.write("<br>" + messageThree + "<br>");
+document.write("<br>" + messageFour + "<br>");
+document.write("<br>" + messageFive + "<br>");
 console.log(message);

@@ -58,16 +58,16 @@ img {
   font-size: 1rem;
 }
 .warning {
-  background-color: #ff9800;
+  background-color: #ffbe00;
 } /* Orange */
 
 .warning:hover {
-  background: #e68a00;
+  background: #fcd560;
 }
 
 .btn {
   border: none;
-  color: white;
+  color: #1c819e;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
