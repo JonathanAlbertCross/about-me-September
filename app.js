@@ -3,10 +3,10 @@ let answerOne = prompt(
 );
 
 massage = "";
-if (answerOne == "yes") {
+if (answerOne.toLowerCase() == "yes") {
   message = "You know me so well - 1 point ONE";
   image = "<img src=images/reading.jpeg>";
-} else if (answerOne == "no") {
+} else if (answerOne.toLowerCase() == "no") {
   message = "Party boy I'm not - try again";
   image = "";
 } else {
@@ -19,10 +19,10 @@ let answerTwo = prompt(
 );
 
 messageTwo = "";
-if (answerTwo == "yes") {
+if (answerTwo.toLowerCase() == "yes") {
   messageTwo =
     "Yes, Man can will nothing unless he has first understood that he must count on no one but himself - another point";
-} else if (answerOne == "no") {
+} else if (answerOne.toLowerCase() == "no") {
   messageTwo = "Maybe I just like living my life - try again";
   image = "";
 } else {
@@ -35,9 +35,9 @@ let answerThree = prompt(
 );
 
 messageThree = "";
-if (answerThree == "yes") {
+if (answerThree.toLowerCase() == "yes") {
   messageThree = "Ok Ok! I'm boring! I know!";
-} else if (answerThree == "no") {
+} else if (answerThree.toLowerCase() == "no") {
   messageThree = "They wouldn't let me in! - try again";
   image = "";
 } else {
@@ -50,9 +50,9 @@ let answerFour = prompt(
 );
 
 messageFour = "";
-if (answerFour.toLowerCase == "yes") {
+if (answerFour.toLowerCase() == "yes") {
   messageFour = "Yes, give me a good period drama any day!";
-} else if (answerFour == "no") {
+} else if (answerFour.toLowerCase() == "no") {
   messageFour =
     "Errm like Superman? Not quite my thing (good graphics tho) - try again";
   image = "";
@@ -66,9 +66,9 @@ let answerFive = prompt(
 );
 
 messageFive = "";
-if (answerFour == "yes") {
+if (answerFour.toLowerCase() == "yes") {
   messageFive = "Kinda, depends if I can solve them lol";
-} else if (answerFour == "no") {
+} else if (answerFour.toLowerCase() == "no") {
   messageFive = "Ha! Depends I guess!";
   image = "";
 } else {
